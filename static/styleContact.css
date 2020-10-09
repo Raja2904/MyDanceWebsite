@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Acme&family=Amatic+SC:wght@700&family=Baloo+Bhai+2&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Acme', sans-serif;
+}
+
+.container{
+ min-width: 70vh;
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+ justify-content: center;
+ margin: 55px 0px;
+}
+
+h2{
+    color: white;
+    text-align: center;
+    margin: 10px 0px;
+    font-family: 'Acme', sans-serif;
+    font-size: 38px;
+    padding: 4px 3px;
+}
+
+.myForm{
+    display: flex;
+    flex-direction: column;
+    /* width: 57%; */
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.myInput{
+    width: 50%;
+    margin: 3px 4px;
+    padding: 6px 4px;
+    border: 2px solid black;
+    border-radius: 8px;
+    font-size: 15px;
+    font-family: 'Baloo Bhai 2', cursive;
+    outline: none;
+}
+
+.btn{
+    margin: 7px;
+    padding: 6px 6px;
+    width: 10%;
+    border: 2px solid black;
+    border-radius: 8px;
+    font-size: 15px;
+    font-family: 'Baloo Bhai 2', cursive;
+    outline: none;
+    background-color: rgb(153, 238, 210);
+}
+
+.btn:hover{
+ background-color: teal;
+ color: white;
+ cursor: pointer;
+}
+

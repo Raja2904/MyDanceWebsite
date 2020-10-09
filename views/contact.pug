@@ -1,0 +1,21 @@
+extends base.pug
+
+block scripts
+  script(src='/static/index.js')
+
+block style
+    style
+      include ../static/style.css
+      include ../static/styleContact.css
+block content
+    div.container
+        h2 Contact Us
+        form(actiom="/contact", method="post", class="myForm")
+            input(type="text", name="name", class="myInput", placeholder="Enter Your Name")
+            input(type="age", name="age", class="myInput", placeholder="Enter Your Age")
+            input(type="gender", name="gender", class="myInput", placeholder="Enter Your Gender")
+            input(type="phone", name="phone", class="myInput", placeholder="Enter Your Phone Number")
+            input(type="email", name="email", class="myInput", placeholder="Enter Your Email")
+            input(type="text", name="danceform", class="myInput", placeholder="Enter Your intrested dance form")
+            button(class="btn")
+                | submit 

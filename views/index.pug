@@ -1,0 +1,57 @@
+//- index.pug
+doctype html
+html
+  head
+    title Raja Dance Academy
+    style
+      include ../static/style.css
+  body
+    nav#navbar
+        ul#navigaion
+            div#logo
+                img(src="/static/img/777.jpg")
+                h4 RDA
+            li #[a(href="/") Home]
+            li #[a(href="/") About]
+            li #[a(href="/") Services]
+            li #[a(href="/") Class Info]
+            li #[a(href="/") Contact Us]
+            
+    section#introSection
+        div Welcome to Raja's Dance Academy 
+        div.small Dance Dil Se
+    section#OurMissions
+        h2 our missions 
+        div.card
+            h3 Dance Perfection
+            div.card-Box
+                div.card-img
+                    img(src="/static/img/123.jpg")
+                div.card-Content   
+                    p this is the best Dance Academy Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus, odit! 
+        div.card
+            h3 Dance the way you like
+            div.card-Box
+                div.card-img
+                    img(src="/static/img/456.jpg")
+                div.card-Content   
+                    p this is the best Dance Academy Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vel, nisi.
+        div.card
+            h3 Expert Teaching
+            div.card-Box
+                div.card-img
+                    img(src="/static/img/789.jpg")
+                div.card-Content   
+                    p this is the best Dance Academy Lorem ipsum dolor, sit amet consectetur adipisicing elit. Neque, ullam!
+
+    section#sponsorsSection
+        h2  Our sponsors
+        div#sponsors
+            img(src="/static/img/96.png", alt="our sponsors" class="SpImage")
+            img(src="/static/img/100.png", alt="our sponsors" class="SpImage")
+            img(src="/static/img/101.png", alt="our sponsors" class="SpImage")
+            img(src="/static/img/128.png", alt="our sponsors" class="SpImage")
+    footer#footer
+        | Copyright © 2020 RajaDanceAcademy.com | All rights reserved              
+    script
+        include ../static/index.js
